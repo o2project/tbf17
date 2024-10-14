@@ -1,0 +1,24 @@
+{
+  "name": "@o2project/techbook-template",
+  "version": "1.0.0",
+  "author": "O2 Project <dev@o2p.jp>",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "20.17.0"
+  },
+  "scripts": {
+    "build": "vivliostyle build",
+    "build:press": "PRESS_ONLY=true vivliostyle build --preflight press-ready",
+    "dev": "vivliostyle preview",
+    "format": "prettier --write .",
+    "lint": "textlint ./entries/*.md"
+  },
+  "devDependencies": {
+    "@kubosho/configs": "^3.15.2",
+    "@vivliostyle/cli": "^8.15.0"
+  },
+  "dependencies": {
+    "@o2project/vivliostyle-theme-o2project": "^2.0.4"
+  }
+}
