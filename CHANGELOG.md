@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/o2project/tbf17/compare/v1.0.0...v1.0.1) (2024-10-14)
+
+### 📚 Some changes
+
+* **colophon:** 奥付で全角コロンを使うようにした ([2bc84df](https://github.com/o2project/tbf17/commit/2bc84df44bd63edf951b56a1755386cbc238a237))
+
 ## 1.0.0 (2024-10-14)
 
 ### 📚 Some changes
