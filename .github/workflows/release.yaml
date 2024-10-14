@@ -9,24 +9,73 @@ on:
   workflow_dispatch:
 
 jobs:
-  release:
-    runs-on: ubuntu-latest
-
+  setup:
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
+          cache: 'npm'
           node-version: 20
-
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Build
+  build:
+    needs:
+      - setup
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          cache: 'npm'
+          node-version: 20
+      - name: Install dependencies
+        run: npm ci
+      - name: Run Build
         run: npm run build
+      - name: Save artifacts to cache
+        id: cache-artifacts
+        uses: actions/cache/save@v4
+        with:
+          path: dist
+          key: dist-${{ github.sha }}
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
 
+  release:
+    needs:
+      - build
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          cache: 'npm'
+          node-version: 20
+      - name: Install dependencies
+        run: npm ci
       - name: Release script
         run: npx semantic-release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+  deploy:
+    needs:
+      - build
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      id-token: write
+      pages: write
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
