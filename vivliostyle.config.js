@@ -1,4 +1,4 @@
-const TITLE = 'Vivliostyle Base';
+const TITLE = 'trapezium.css';
 
 const pdfOutputDir = process.env.PRESS_ONLY === 'true' ? './dist/press' : './dist/pdf';
 const pdfConfig = {
@@ -16,7 +16,15 @@ module.exports = {
   language: 'ja',
   size: 'JIS-B5',
   theme: '@o2project/vivliostyle-theme-o2project',
-  entry: ['./entries/introduction.md'],
+  entry: [
+    './entries/prologue.md',
+    './entries/south.md',
+    './entries/west.md',
+    './entries/east.md',
+    './entries/north.md',
+    './entries/trapezium_css.md',
+    './entries/colophon.md',
+  ],
   output: [pdfConfig, webpubConfig],
   workspaceDir: '.temp',
   toc: {
