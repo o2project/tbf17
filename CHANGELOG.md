@@ -1,3 +1,9 @@
+## 1.0.0 (2024-10-14)
+
+### 📚 Some changes
+
+* **entries:** 各ページのMarkdownファイルを用意した ([acc26f0](https://github.com/o2project/tbf17/commit/acc26f0bea0b14a46b9e93f0e228707f0d613630))
+
 ## 1.0.0 (2024-09-23)
 
 ### ✨ Features
