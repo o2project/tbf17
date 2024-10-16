@@ -39,8 +39,6 @@ Tacitの作者は[Tacit, a CSS Framework Without Classes](https://www.yegor256.c
 
 ## ユーティリティファーストCSSとの相違点
 
-
-
 ## クラスレスCSSの活用
 
 クラスレスCSSは比較的シンプルな構造のページでその効果を発揮すると言えます。1カラムで完結するようなWebアプリケーションやWebページであれば、クラスレスCSSを読み込むだけでそれなりに良い見た目のページができるかもしれません。
@@ -55,3 +53,8 @@ Tacitの作者は[Tacit, a CSS Framework Without Classes](https://www.yegor256.c
 - 製品のランディングページ
 
 逆に[Pinterest](https://jp.pinterest.com/)や[pixiv](https://www.pixiv.net/)のような画像中心のページや、[Figma](https://www.figma.com/)のような自由にオブジェクトが配置できる前提のWebアプリケーション、[Netflix](https://www.netflix.com/jp)といった複数カラムが各ページにモジュール単位で存在しているページだと、CSSを書く量が増えるため、クラスレスCSSを採用したとしても独自のCSSを書く量が増えることになると考えられます。
+
+クラスレスCSSの1つである[PicoのREADME](https://github.com/picocss/pico?tab=readme-ov-file#limitations)には次のように書かれています。
+
+> Pico CSS can be used without custom CSS for quick or small projects. However, it's designed as a starting point, like a "reset CSS on steroids". As Pico does not integrate any helpers or utilities .classes, this minimal CSS framework requires SCSS or CSS knowledge to build large projects.
+> （筆者による日本語訳）Pico CSSは素早く作る、または小さいプロジェクトではカスタムCSSを使わなくても使えます。一方でPicoはリセットCSSの強化版のような立ち位置から始まったものです。そのためヘルパークラスやユーティリティクラスといったものはありません。この小さなCSSフレームワークを使って大きいプロジェクトを構築するならSCSSやCSSの知識が必要です。
