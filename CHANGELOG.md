@@ -1,3 +1,13 @@
+## [1.0.2](https://github.com/o2project/tbf17/compare/v1.0.1...v1.0.2) (2024-10-17)
+
+### 📚 Some changes
+
+* **prologue:** update ([8142dde](https://github.com/o2project/tbf17/commit/8142dde287b800d236ff10544bba60fe18d9fc68))
+* **prologue:** update ([3703752](https://github.com/o2project/tbf17/commit/37037528cab17312bf1b0a7ce40a96f803aa4184))
+* **prologue:** update ([6fc0348](https://github.com/o2project/tbf17/commit/6fc0348c7667d973a54b26ff28219fb6f4bee128))
+* **prologue:** update ([80a1af4](https://github.com/o2project/tbf17/commit/80a1af43c1bd002a42ab3b0266ae16beb8ac2467))
+* **prologue:** update ([0f51016](https://github.com/o2project/tbf17/commit/0f51016eba9757ca4c624f85f3dd7897105bcf35))
+
 ## [1.0.1](https://github.com/o2project/tbf17/compare/v1.0.0...v1.0.1) (2024-10-14)
 
 ### 📚 Some changes
