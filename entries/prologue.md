@@ -8,7 +8,7 @@
 
 - [necolas/normalize.css: A modern alternative to CSS resets](https://github.com/necolas/normalize.css)
 - [csstools/sanitize.css: A best-practices CSS foundation](https://github.com/csstools/sanitize.css)
-- [filipelinhares/ress: 🚿 A modern CSS reset](https://github.com/filipelinhares/ress)
+- [filipelinhares/ress: A modern CSS reset](https://github.com/filipelinhares/ress)
 - [A (more) Modern CSS Reset - Piccalilli](https://piccalil.li/blog/a-more-modern-css-reset/)
 
 また[CSS Zen Garden](https://www.csszengarden.com/)もクラスレスCSSの考え方に影響を与えたと言えそうです。CSS Zen Gardenは2003年に公開されました。同じHTMLを使ってCSSファイルだけを差し替えるだけでページの見た目が変わることを示し、HTMLとCSSを分けることの重要性を世の中に広めました。
@@ -37,20 +37,20 @@ Tacitの作者は[Tacit, a CSS Framework Without Classes](https://www.yegor256.c
 
 一方でクラスレスCSSは各種CSSフレームワークと比較して、定義されているプロパティが少ないのと、内部構造も比較的シンプルなため、スタイル定義の上書きをしたい場合でもより簡単に上書きできます。
 
-## ユーティリティファーストCSSとの相違点
-
 ## クラスレスCSSの活用
 
 クラスレスCSSは比較的シンプルな構造のページでその効果を発揮すると言えます。1カラムで完結するようなWebアプリケーションやWebページであれば、クラスレスCSSを読み込むだけでそれなりに良い見た目のページができるかもしれません。
 
-また2カラム以上のレイアウトにしたい場合でも、自分でFlexboxやGridといったスタイル定義をすれば良いでしょう。
+また複数カラムのレイアウトにしたい場合でも、自分でFlexboxやGridといったスタイル定義をすれば良いでしょう。またライブラリによっては、HTMLの構造を特定の構造にすることで複数カラムを実現するライブラリもあります。
 
-クラスレスCSSは思いつく限りだと下記の用途に適していると考えられます。
+クラスレスCSSだけで完結できそうなページの例として、思いつく限りだと下記の用途が挙げられます。
 
 - 比較的シンプルなUIのブログ
   - たとえば[noteの記事ページ](https://note.com/kubosho_/n/n0409d664249c)はクラスレスCSS＋αのスタイル定義で作れそうです
 - ポートフォリオ
 - 製品のランディングページ
+
+またコンポーネントカタログを構築するときに、HTML要素が持つ役割と合致したコンポーネント⸺たとえばボタンやフォームなどが存在するのであれば、HTML要素に対して直接スタイル定義をすることで、余計なクラスを増やすことなく、HTMLを書いただけで統一的な見た目を得られます。
 
 逆に[Pinterest](https://jp.pinterest.com/)や[pixiv](https://www.pixiv.net/)のような画像中心のページや、[Figma](https://www.figma.com/)のような自由にオブジェクトが配置できる前提のWebアプリケーション、[Netflix](https://www.netflix.com/jp)といった複数カラムが各ページにモジュール単位で存在しているページだと、CSSを書く量が増えるため、クラスレスCSSを採用したとしても独自のCSSを書く量が増えることになると考えられます。
 
@@ -58,3 +58,7 @@ Tacitの作者は[Tacit, a CSS Framework Without Classes](https://www.yegor256.c
 
 > Pico CSS can be used without custom CSS for quick or small projects. However, it's designed as a starting point, like a "reset CSS on steroids". As Pico does not integrate any helpers or utilities .classes, this minimal CSS framework requires SCSS or CSS knowledge to build large projects.
 > （筆者による日本語訳）Pico CSSは素早く作る、または小さいプロジェクトではカスタムCSSを使わなくても使えます。一方でPicoはリセットCSSの強化版のような立ち位置から始まったものです。そのためヘルパークラスやユーティリティクラスといったものはありません。この小さなCSSフレームワークを使って大きいプロジェクトを構築するならSCSSやCSSの知識が必要です。
+
+## クラスレスCSSは結局なんなのか？
+
+クラスレスCSSはより主張の強いリセットCSSと言えます。シンプルな構造のページであれば、クラスレスCSSを読み込むだけで良い感じのページができあがります。また必要に応じて追加のCSSを書くことができるため、クラスレスCSSライブラリで適用される見た目をもとにして、より発展的な見た目・レイアウトを作っていくことも可能です。
