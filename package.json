@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@kubosho/configs": "^3.16.2",
-    "@vivliostyle/cli": "^8.15.0"
+    "@vivliostyle/cli": "^8.16.0"
   },
   "dependencies": {
     "@o2project/vivliostyle-theme-o2project": "^2.0.4"
