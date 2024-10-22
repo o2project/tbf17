@@ -1,6 +1,6 @@
 Source Code released under the MIT License
 
-Copyright (c) 2021 O2 Project
+Copyright (c) 2024 O2 Project
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,6 +24,6 @@ SOFTWARE.
 
 The text content released under the CC BY 4.0.
 
-Copyright (c) 2021 O2 Project
+Copyright (c) 2024 O2 Project
 
 https://creativecommons.org/licenses/by/4.0
