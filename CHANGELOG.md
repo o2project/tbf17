@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/o2project/tbf17/compare/v1.0.2...v1.0.3) (2024-10-22)
+
+### 📚 Some changes
+
+* **LICENSE:** 著作権の年を更新した ([3939526](https://github.com/o2project/tbf17/commit/39395268b500d1b6f88b8ce771f5cae41e71bbfa))
+
 ## [1.0.2](https://github.com/o2project/tbf17/compare/v1.0.1...v1.0.2) (2024-10-17)
 
 ### 📚 Some changes
