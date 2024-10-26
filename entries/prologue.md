@@ -2,22 +2,26 @@
 
 クラスレスCSSはHTMLにクラス属性を必要とせず、HTMLを書いてCSSを適用すると良い感じの見た目になるCSSのライブラリを指します。
 
-クラスレスCSSの考え方自体はおそらくリセットCSSから着想されたと考えています。
+クラスレスCSSの考え方自体は、おそらくリセットCSSから着想されたと考えています。
 
-最初期のリセットCSSはブラウザーが適用しているスタイルをすべて打ち消すものが多かったですが、だんだんとブラウザー間の差異を無くしつつも独自のスタイル定義をするライブラリが出てきました。
+リセットCSSは最初期こそブラウザーが適用しているスタイルをすべて打ち消すものが多かったです。
+
+ただ、段々ブラウザー間の差異を無くしつつ、独自のスタイル定義をするライブラリが出てきました。最近のリセットCSSの代表例として、下記の4つが挙げられます。
 
 - [necolas/normalize.css: A modern alternative to CSS resets](https://github.com/necolas/normalize.css)
 - [csstools/sanitize.css: A best-practices CSS foundation](https://github.com/csstools/sanitize.css)
 - [filipelinhares/ress: A modern CSS reset](https://github.com/filipelinhares/ress)
 - [A (more) Modern CSS Reset - Piccalilli](https://piccalil.li/blog/a-more-modern-css-reset/)
 
-また[CSS Zen Garden](https://www.csszengarden.com/)もクラスレスCSSの考え方に影響を与えたと言えそうです。CSS Zen Gardenは2003年に公開されました。同じHTMLを使ってCSSファイルだけを差し替えるだけでページの見た目が変わることを示し、HTMLとCSSを分けることの重要性を世の中に広めました。
+また[CSS Zen Garden](https://www.csszengarden.com/)も、クラスレスCSSの考え方に影響を与えたと言えそうです。
 
-さて話をクラスレスCSSに戻すと、クラスレスCSSの源流は2014年に[Markdown CSS](https://github.com/markdowncss)というGitHubのorganizationで複数のCSSライブラリが公開されたところから始まったと考えられます。
+CSS Zen Gardenは2003年に公開されました。同じHTMLを使ってCSSファイルだけを差し替えるだけでページの見た目が変わることを示し、HTMLとCSSを分けることの重要性を世の中に広めました。
 
-Markdown CSSで公開されているライブラリは、Markdownからなんらかの方法を用いて変換されたHTMLを、見た目良く表示することを目的として作られたライブラリのようです。
+少し脱線しましたが、話をクラスレスCSSに戻しましょう。クラスレスCSSの源流は2014年に[Markdown CSS](https://github.com/markdowncss)というGitHubのorganizationで、複数のCSSライブラリが公開されたところから始まったと考えられます。
 
-2015年になると複数のクラスレスCSSライブラリが出てました。最初期にでてきたクラスレスCSSライブラリは下記の2つがあります。
+Markdown CSSで公開されているライブラリは、Markdownからなんらかの方法を用いて変換されたHTMLを、見た目良く表示することを目的として作られたライブラリみたいです。
+
+2015年になると複数のクラスレスCSSライブラリが出てました。最初期に出てきたクラスレスCSSライブラリは下記の2つがあります。
 
 - [mblode/marx: The classless CSS reset (perfect for Communists).](https://github.com/mblode/marx)
 - [yegor256/tacit: CSS framework for dummies, without a single CSS class: nicely renders properly formatted HTML5 pages](https://github.com/yegor256/tacit)
@@ -27,15 +31,49 @@ Markdown CSSで公開されているライブラリは、Markdownからなんら
 Tacitの作者は[Tacit, a CSS Framework Without Classes](https://www.yegor256.com/2015/04/13/tacit-css-framework-for-dummies.html)という記事内で次のように書いています。
 
 > I've been using Bootstrap for more than two years in multiple projects, and my frustration has been building. First of all, it’s too massive for a small web app. Second, it is not fully self-sufficient; no matter how much you follow its principles of design, you end up with your own CSS styles anyway. Third, and most importantly, its internal design is messy. Having all this in mind, I created tacit, my own CSS framework, which immediately received positive feedback on Hacker News.
-> （筆者による日本語訳）私はBootstrapを2年以上複数のプロジェクトで使い、欲求不満を感じていました。まず小さなWebアプリには大きすぎます。次にどれだけデザイン原則に従ったとしても独自のCSSを定義しなければいけなく、Bootstrap単体で完結することができません。最後にもっとも重要なこととして内部設計が複雑であることです。これらを念頭に置いた上で、私はtacitというCSSフレームワークを作ったところ、Hacker News上ですぐに好意的な反応をもらいました。
+> （筆者による日本語訳）私はBootstrapを2年以上複数のプロジェクトで使い、欲求不満を感じていました。まず小さなWebアプリには大きすぎます。次にどれだけデザイン原則に従ったとしても独自のCSSを定義しなければいけなく、Bootstrap単体で完結することができません。最後にもっとも重要なこととして内部設計が複雑であることです。これらを念頭に置いたうえで、私はtacitというCSSフレームワークを作ったところ、Hacker News上ですぐに好意的な反応をもらいました。
 
 記事が書かれた2015年当時は、[Bootstrap](https://getbootstrap.com/)や[Foundation](https://get.foundation/)、[Pure](https://purecss.io/)といったCSSフレームワークがよく使われていました。
 
-ただこれらのフレームワークは独自のクラス名が多く定義されていたり、HTMLの構造がある程度縛られたりと、それぞれのフレームワークごとに覚えることがありました。
+ただこれらのフレームワークにはTacitの作者が指摘する通り、問題点がいくつかありました。
 
-またフレームワークで定義されている見た目を変えたくなった場合はスタイル定義の上書きをしないといけませんが、プロパティの値を多く上書きしないといけないため、多大な労力を必要とします。
+- 独自のクラス名が多く定義されていて、かつフレームワークごとにクラス名が違う
+- HTMLの構造やCSSのクラス名が、フレームワークの定義するものに縛られる
+- 見た目をカスタマイズしたい場合、複雑なセレクタ定義をしないといけない
 
-一方でクラスレスCSSは各種CSSフレームワークと比較して、定義されているプロパティが少ないのと、内部構造も比較的シンプルなため、スタイル定義の上書きをしたい場合でもより簡単に上書きできます。
+これらの問題点によって、開発速度や開発体験に影響する場合がありました。
+
+一方でクラスレスCSSは各種CSSフレームワークと比較して、定義されているプロパティが少ないです。また内部構造も比較的シンプルなので、スタイル定義の上書きをしたい場合もより簡単に上書きできます。
+
+## クラスレスCSSの制約
+
+ただクラスレスCSSにも、アイドルになるため自ら4箇条を課して学校生活を送っていた東ゆうのように、4つの制約があります。
+
+### 他のライブラリやフレームワークと組み合わせづらい場合がある
+
+[Tailwind CSS](https://tailwindcss.com/)などのような、ユーティリティファーストライブラリと組み合わせることは難しくないでしょう。
+
+一方でBootstrapなどのフレームワークと組み合わせる場合は、クラスレスCSS側で定義しているスタイルとフレームワーク側で定義しているスタイルが競合してしまい、意図したスタイルを適用するのは難しいと思われます。
+
+### 見た目をカスマイズしたい場合は、CSSの知識が必要になる
+
+クラスレスCSSはその概念上、プレーンなHTMLをそれなりの見た目にしてくれるライブラリとなります。
+
+そのためクラスレスCSSが提供する見た目をカスタマイズしたい場合は、CSSの知識が必要になります。
+
+### 見た目をカスタマイズしたい場合は、HTML側をクラスレスにすることが難しくなる
+
+クラスレスCSSを適用したうえで、ページの見た目をカスタマイズしたい場合は、独自に用意したCSS内で、HTML要素に対してスタイルを定義することもできます。この場合はHTML側にclass属性が書かれないでしょう。
+
+しかし、大体の場合はclass属性を書いたうえで、スタイルの上書きをしていくことになります。その場合はHTMLをクラスレスに保てないことになります。
+
+### 複雑なレイアウトにしたい場合は、CSSを書く量が増える
+
+下記に挙げるようなWebサイト・Webアプリケーションだと、クラスレスCSSを採用した場合にスタイルの上書きが多く発生するため、クラスレスCSSを採用する意義が薄れます。
+
+- [Pinterest](https://jp.pinterest.com/)や[pixiv](https://www.pixiv.net/)のような画像中心のページ
+- [Figma](https://www.figma.com/)のような自由にオブジェクトが配置できる前提のWebアプリケーション
+- [Netflix](https://www.netflix.com/jp)といった複数カラムが各ページにモジュール単位で存在しているページ
 
 ## クラスレスCSSの活用
 
@@ -52,13 +90,10 @@ Tacitの作者は[Tacit, a CSS Framework Without Classes](https://www.yegor256.c
 
 またコンポーネントカタログを構築するときに、HTML要素が持つ役割と合致したコンポーネント⸺たとえばボタンやフォームなどが存在するのであれば、HTML要素に対して直接スタイル定義をすることで、余計なクラスを増やすことなく、HTMLを書いただけで統一的な見た目を得られます。
 
-逆に[Pinterest](https://jp.pinterest.com/)や[pixiv](https://www.pixiv.net/)のような画像中心のページや、[Figma](https://www.figma.com/)のような自由にオブジェクトが配置できる前提のWebアプリケーション、[Netflix](https://www.netflix.com/jp)といった複数カラムが各ページにモジュール単位で存在しているページだと、CSSを書く量が増えるため、クラスレスCSSを採用したとしても独自のCSSを書く量が増えることになると考えられます。
-
-クラスレスCSSの1つである[PicoのREADME](https://github.com/picocss/pico?tab=readme-ov-file#limitations)には次のように書かれています。
-
-> Pico CSS can be used without custom CSS for quick or small projects. However, it's designed as a starting point, like a "reset CSS on steroids". As Pico does not integrate any helpers or utilities .classes, this minimal CSS framework requires SCSS or CSS knowledge to build large projects.
-> （筆者による日本語訳）Pico CSSは素早く作る、または小さいプロジェクトではカスタムCSSを使わなくても使えます。一方でPicoはリセットCSSの強化版のような立ち位置から始まったものです。そのためヘルパークラスやユーティリティクラスといったものはありません。この小さなCSSフレームワークを使って大きいプロジェクトを構築するならSCSSやCSSの知識が必要です。
-
 ## クラスレスCSSは結局なんなのか？
 
-クラスレスCSSはより主張の強いリセットCSSと言えます。シンプルな構造のページであれば、クラスレスCSSを読み込むだけで良い感じのページができあがります。また必要に応じて追加のCSSを書くことができるため、クラスレスCSSライブラリで適用される見た目をもとにして、より発展的な見た目・レイアウトを作っていくことも可能です。
+クラスレスCSSはより主張の強いリセットCSSと言えます。シンプルな構造のページであれば、クラスレスCSSを読み込むだけで良い感じのページができあがります。
+
+また必要に応じて追加のCSSを書くことができるため、クラスレスCSSライブラリで適用される見た目をもとにして、より発展的な見た目・レイアウトを作っていくことも可能です。
+
+次の章からは星の数ほどあるクラスレスCSSのうち、選りすぐりのライブラリを4つ紹介します。
