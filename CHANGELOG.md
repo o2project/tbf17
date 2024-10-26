@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/o2project/tbf17/compare/v1.0.3...v1.1.0) (2024-10-26)
+
+### ✨ Features
+
+* **dist/examples:** aside要素を用意した ([f69290e](https://github.com/o2project/tbf17/commit/f69290e5c03aa82259e0114a68a7cb6b65ebd018))
+* **dist/examples:** 番組のフォームっぽい内容を投稿した ([580b771](https://github.com/o2project/tbf17/commit/580b771558868403c1e720e10dd0c4f308783723))
+
 ## [1.0.3](https://github.com/o2project/tbf17/compare/v1.0.2...v1.0.3) (2024-10-22)
 
 ### 📚 Some changes
