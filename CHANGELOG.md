@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/o2project/tbf17/compare/v1.1.0...v1.1.1) (2024-10-26)
+
+### 📚 Some changes
+
+* **README:** タイトルと説明を更新した ([de2673f](https://github.com/o2project/tbf17/commit/de2673fc37d7637a11e1151d655940f712fae2ce))
+
 ## [1.1.0](https://github.com/o2project/tbf17/compare/v1.0.3...v1.1.0) (2024-10-26)
 
 ### ✨ Features
