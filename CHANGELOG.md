@@ -1,3 +1,9 @@
+## [1.1.2](https://github.com/o2project/tbf17/compare/v1.1.1...v1.1.2) (2024-10-26)
+
+### 📚 Some changes
+
+* **prologue:** プロローグに追記した ([fd6803f](https://github.com/o2project/tbf17/commit/fd6803fe1e4c860c38268bdb494909a580764da1))
+
 ## [1.1.1](https://github.com/o2project/tbf17/compare/v1.1.0...v1.1.1) (2024-10-26)
 
 ### 📚 Some changes
