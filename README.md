@@ -1,6 +1,6 @@
-# Techbook Template
+# TBF 17
 
-Techbook boilerplate repository.
+技術書典17用のリポジトリ。
 
 ## Install dependencies
 
