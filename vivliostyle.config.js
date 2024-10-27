@@ -22,7 +22,6 @@ module.exports = {
     './entries/west.md',
     './entries/east.md',
     './entries/north.md',
-    './entries/trapezium_css.md',
     './entries/colophon.md',
   ],
   output: [pdfConfig, webpubConfig],
