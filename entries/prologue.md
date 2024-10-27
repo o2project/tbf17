@@ -30,7 +30,7 @@ Markdown CSSで公開されているライブラリは、Markdownからなんら
 
 Tacitの作者は[Tacit, a CSS Framework Without Classes](https://www.yegor256.com/2015/04/13/tacit-css-framework-for-dummies.html)という記事内で次のように書いています。
 
-> I've been using Bootstrap for more than two years in multiple projects, and my frustration has been building. First of all, it’s too massive for a small web app. Second, it is not fully self-sufficient; no matter how much you follow its principles of design, you end up with your own CSS styles anyway. Third, and most importantly, its internal design is messy. Having all this in mind, I created tacit, my own CSS framework, which immediately received positive feedback on Hacker News.
+> I've been using Bootstrap for more than two years in multiple projects, and my frustration has been building. First of all, it's too massive for a small web app. Second, it is not fully self-sufficient; no matter how much you follow its principles of design, you end up with your own CSS styles anyway. Third, and most importantly, its internal design is messy. Having all this in mind, I created tacit, my own CSS framework, which immediately received positive feedback on Hacker News.
 > （筆者による日本語訳）私はBootstrapを2年以上複数のプロジェクトで使い、欲求不満を感じていました。まず小さなWebアプリには大きすぎます。次にどれだけデザイン原則に従ったとしても独自のCSSを定義しなければいけなく、Bootstrap単体で完結することができません。最後にもっとも重要なこととして内部設計が複雑であることです。これらを念頭に置いたうえで、私はtacitというCSSフレームワークを作ったところ、Hacker News上ですぐに好意的な反応をもらいました。
 
 記事が書かれた2015年当時は、[Bootstrap](https://getbootstrap.com/)や[Foundation](https://get.foundation/)、[Pure](https://purecss.io/)といったCSSフレームワークがよく使われていました。
