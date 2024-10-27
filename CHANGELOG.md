@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/o2project/tbf17/compare/v1.2.0...v1.3.0) (2024-10-27)
+
+### ✨ Features
+
+* **entries:** 取り上げるクラスレスCSSを変更した ([616a37d](https://github.com/o2project/tbf17/commit/616a37d5e19ee516b3c0211dfbdb913489864810))
+* 書く予定のない章を削除した ([3cfaae2](https://github.com/o2project/tbf17/commit/3cfaae2596aa089f660ef7317972ccb1c7f8a080))
+
 ## [1.2.0](https://github.com/o2project/tbf17/compare/v1.1.2...v1.2.0) (2024-10-27)
 
 ### ✨ Features
