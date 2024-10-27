@@ -1,1 +1,1 @@
-# 西の星 ～pico～
+# 西の星 ～Almond.css～

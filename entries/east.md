@@ -1,1 +1,1 @@
-# 東の星 ～tacit～
+# 東の星 ～Water.css～

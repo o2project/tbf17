@@ -1,1 +1,1 @@
-# 北の星 ～simple.css～
+# 北の星 ～new.css～
