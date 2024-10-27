@@ -1,3 +1,20 @@
+## [1.2.0](https://github.com/o2project/tbf17/compare/v1.1.2...v1.2.0) (2024-10-27)
+
+### ✨ Features
+
+* **examples:** PicoではなくAlmond.cssに差し替えた ([8be7957](https://github.com/o2project/tbf17/commit/8be79575727d3086007d5c4a329ff89cd49e2f56))
+* **prologue:** クラスレスCSSの制約を追加した ([a85f004](https://github.com/o2project/tbf17/commit/a85f004904b250f56a16558208bcb6a796c543d7))
+* **dist/examples:** それぞれのクラスレスCSSについてサンプルページを用意した ([a60733e](https://github.com/o2project/tbf17/commit/a60733e3d5066ce8844912f71819143b70e1e64c))
+* **dist:** 一部のクラスレスCSS紹介を差し替えて、CSSをdist内に含めた ([cfda60b](https://github.com/o2project/tbf17/commit/cfda60b20a7268e4864e6aee3ad8798faec34d79))
+
+### 🐛 Bug Fixes
+
+* **prologue:** 二重助詞を無くした ([c426e92](https://github.com/o2project/tbf17/commit/c426e92abb69bee3527ce0ae28ddb769af8d952f))
+
+### 📚 Some changes
+
+* **prologue:** シングルクオートを半角にした ([ff209b7](https://github.com/o2project/tbf17/commit/ff209b7771c312bb1fb365cccea6cd77bee15cf1))
+
 ## [1.1.2](https://github.com/o2project/tbf17/compare/v1.1.1...v1.1.2) (2024-10-26)
 
 ### 📚 Some changes
