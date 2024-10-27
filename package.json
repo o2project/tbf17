@@ -11,6 +11,7 @@
     "build": "vivliostyle build",
     "build:press": "PRESS_ONLY=true vivliostyle build --preflight press-ready",
     "dev": "vivliostyle preview",
+    "preview:html": "npx http-server ./dist/examples",
     "format": "prettier --write .",
     "lint": "textlint ./entries/*.md"
   },
