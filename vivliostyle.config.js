@@ -14,7 +14,7 @@ module.exports = {
   title: TITLE,
   author: 'kubosho',
   language: 'ja',
-  size: 'JIS-B5',
+  size: 'JIS-A5',
   theme: '@o2project/vivliostyle-theme-o2project',
   entry: [
     './entries/prologue.md',
