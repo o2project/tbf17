@@ -104,4 +104,9 @@ Tacitの作者は[Tacit, a CSS Framework Without Classes](https://www.yegor256.c
 
 また必要に応じて追加のCSSを書くことができるため、クラスレスCSSライブラリで適用される見た目をもとにして、より発展的な見た目・レイアウトを作っていくことも可能です。
 
-次の章からは星の数ほどあるクラスレスCSSのうち、選りすぐりのライブラリを4つ紹介します。
+次の章からは星の数ほどあるクラスレスCSSのうち、選りすぐりのライブラリである下記の4つを紹介します。
+
+- [sakura](https://github.com/oxalorg/sakura)
+- [Almond.css](https://github.com/alvaromontoro/almond.css)
+- [Water.css](https://github.com/kognise/water.css)
+- [new.css](https://github.com/xz/new.css)
