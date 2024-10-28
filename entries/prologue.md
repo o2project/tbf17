@@ -6,7 +6,9 @@
 
 リセットCSSは最初期こそブラウザーが適用しているスタイルをすべて打ち消すものが多かったです。
 
-ただ、段々ブラウザー間の差異を無くしつつ、独自のスタイル定義をするライブラリが出てきました。最近のリセットCSSの代表例として、下記の4つが挙げられます。
+ただ時代が進むにつれて、ブラウザー間の差異を無くしつつ、独自のスタイル定義をするライブラリも出てきました。
+
+最近のリセットCSSの代表例として、下記の4つが挙げられます。
 
 - [necolas/normalize.css: A modern alternative to CSS resets](https://github.com/necolas/normalize.css)
 - [csstools/sanitize.css: A best-practices CSS foundation](https://github.com/csstools/sanitize.css)
