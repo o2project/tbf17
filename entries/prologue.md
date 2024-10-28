@@ -106,7 +106,7 @@ Tacitの作者は[Tacit, a CSS Framework Without Classes](https://www.yegor256.c
 
 次の章からは星の数ほどあるクラスレスCSSのうち、選りすぐりのライブラリである下記の4つを紹介します。
 
-- [sakura](https://github.com/oxalorg/sakura)
-- [Almond.css](https://github.com/alvaromontoro/almond.css)
-- [Water.css](https://github.com/kognise/water.css)
-- [new.css](https://github.com/xz/new.css)
+- [oxalorg/sakura: a minimal css framework/theme.](https://github.com/oxalorg/sakura)
+- [alvaromontoro/almond.css: Collection of CSS styles to make simple websites look nicer](https://github.com/alvaromontoro/almond.css)
+- [kognise/water.css: A drop-in collection of CSS styles to make simple websites just a little nicer](https://github.com/kognise/water.css)
+- [xz/new.css: A classless CSS framework to write modern websites using only HTML.](https://github.com/xz/new.css)
