@@ -1,3 +1,13 @@
+## [1.4.0](https://github.com/o2project/tbf17/compare/v1.3.0...v1.4.0) (2024-10-28)
+
+### ✨ Features
+
+* **dist:** hr要素を使う位置を変更した ([b82e59f](https://github.com/o2project/tbf17/commit/b82e59fc0fdf093ef2f21820d0c06274a146919e))
+
+### 📚 Some changes
+
+* **entries/south:** sakuraを紹介する章を書いた ([267a304](https://github.com/o2project/tbf17/commit/267a30494d3cbb1b22e909a48247a60cbc969431))
+
 ## [1.3.0](https://github.com/o2project/tbf17/compare/v1.2.0...v1.3.0) (2024-10-27)
 
 ### ✨ Features
