@@ -90,9 +90,23 @@ font-family: Helvetica, Arial, sans-serif;
 
 といっても他と比較しないとどれだけ少ないのか分からないので、今回紹介するライブラリで定義されている `font-family` の値を一覧にします。なお全てゴシック体のフォントに限定しており、セリフ体やソースコードに対して適用されている `font-family` は対象外としています。
 
-- sakura: `font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;`
-- Water.css: `font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Segoe UI Emoji,Apple Color Emoji,Noto Color Emoji,sans-serif;`
-- new.css: `font-family: 'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"`
+#### sakura
+
+```css
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+```
+
+#### Water.css
+
+```css
+font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Segoe UI Emoji,Apple Color Emoji,Noto Color Emoji,sans-serif;
+```
+
+#### new.css
+
+```css
+font-family: 'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
+```
 
 こうして比較するとAlmond.cssの `font-family` に定義されているフォントの数が圧倒的に少ないと分かります。
 
