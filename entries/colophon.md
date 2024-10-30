@@ -12,6 +12,10 @@
     <dd>kubosho</dd>
   </div>
   <div>
+    <dt>フォント</dt>
+    <dd>Sauce Han Sans, Source Han Code JP</dd>
+  </div>
+  <div>
     <dt>印刷</dt>
     <dd>日光企画</dd>
   </div>
