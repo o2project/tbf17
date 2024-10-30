@@ -1,15 +1,20 @@
-<section id="colophon" role="doc-colophon">
+# trapezium.css
 
-# 奥付
+2024年11月2日　v1.0.0
 
-## trapezium.css
+<dl>
+  <div>
+    <dt>発行</dt>
+    <dd>O2 Project</dd>
+  </div>
+  <div>
+    <dt>著者</dt>
+    <dd>kubosho</dd>
+  </div>
+  <div>
+    <dt>印刷</dt>
+    <dd>日光企画</dd>
+  </div>
+</dl>
 
-2024年11月2日：初版発行
-
-- 発行：O2 Project
-- 編集：kubosho
-- 印刷：日光企画
-
-© O2 Project, 2024
-
-</section>
+© 2024 O2 Project
