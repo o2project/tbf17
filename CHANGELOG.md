@@ -1,3 +1,12 @@
+## [1.6.1](https://github.com/o2project/tbf17/compare/v1.6.0...v1.6.1) (2024-10-30)
+
+### 📚 Some changes
+
+* **deps:** update @o2project/vivliostyle-theme-o2project ([dec03dc](https://github.com/o2project/tbf17/commit/dec03dca23fa1988de7ce2e25ad16336b41d528c))
+* **entries:** それぞれのサンプルページを追加した ([5a05463](https://github.com/o2project/tbf17/commit/5a054632730eddf5ad2eb46b5818f8b99375f603))
+* **entries/colophon:** 使ったフォント情報を追記した ([bd191c3](https://github.com/o2project/tbf17/commit/bd191c345f37c1fe8c12d806ecaa6e35d576409b))
+* **entries/west:** 文章の改行位置を調整した ([b8c3bbb](https://github.com/o2project/tbf17/commit/b8c3bbb20f1439baafa9ea7fddcfc3202a81405b))
+
 ## [1.6.0](https://github.com/o2project/tbf17/compare/v1.5.0...v1.6.0) (2024-10-30)
 
 ### ✨ Features
