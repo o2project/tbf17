@@ -6,7 +6,9 @@
 
 リセットCSSは最初期こそブラウザーが適用しているスタイルをすべて打ち消すものが多かったです。
 
-ただ、段々ブラウザー間の差異を無くしつつ、独自のスタイル定義をするライブラリが出てきました。最近のリセットCSSの代表例として、下記の4つが挙げられます。
+ただ時代が進むにつれて、ブラウザー間の差異を無くしつつ、独自のスタイル定義をするライブラリも出てきました。
+
+最近のリセットCSSの代表例として、下記の4つが挙げられます。
 
 - [necolas/normalize.css: A modern alternative to CSS resets](https://github.com/necolas/normalize.css)
 - [csstools/sanitize.css: A best-practices CSS foundation](https://github.com/csstools/sanitize.css)
@@ -39,7 +41,7 @@ Tacitの作者は[Tacit, a CSS Framework Without Classes](https://www.yegor256.c
 
 - 独自のクラス名が多く定義されていて、かつフレームワークごとにクラス名が違う
 - HTMLの構造やCSSのクラス名が、フレームワークの定義するものに縛られる
-- 見た目をカスタマイズしたい場合、複雑なセレクタ定義をしないといけない
+- 見た目をカスタマイズしたい場合、複雑なセレクター定義をしないといけない
 
 これらの問題点によって、開発速度や開発体験に影響する場合がありました。
 
@@ -79,7 +81,7 @@ Tacitの作者は[Tacit, a CSS Framework Without Classes](https://www.yegor256.c
 
 - [Pinterest](https://jp.pinterest.com/)や[pixiv](https://www.pixiv.net/)のような画像中心のページ
 - [Figma](https://www.figma.com/)のような自由にオブジェクトが配置できる前提のWebアプリケーション
-- [Netflix](https://www.netflix.com/jp)といった複数カラムが各ページにモジュール単位で存在しているページ
+- [ABEMA](https://abema.tv/)といった複数カラムが各ページにモジュール単位で存在しているページ
 
 ## クラスレスCSSの活用
 
@@ -94,7 +96,7 @@ Tacitの作者は[Tacit, a CSS Framework Without Classes](https://www.yegor256.c
 - ポートフォリオ
 - 製品のランディングページ
 
-またコンポーネントカタログを構築するときに、HTML要素が持つ役割と合致したコンポーネント⸺たとえばボタンやフォームなどが存在するのであれば、HTML要素に対して直接スタイル定義をすることで、余計なクラスを増やすことなく、HTMLを書いただけで統一的な見た目を得られます。
+またコンポーネントカタログを構築するときに、HTML要素が持つ役割と合致したコンポーネント——たとえばボタンやフォームなどが存在するのであれば、HTML要素に対して直接スタイル定義をすることで、余計なクラスを増やすことなく、HTMLを書いただけで統一的な見た目を得られます。
 
 ## クラスレスCSSは結局なんなのか？
 
@@ -102,4 +104,9 @@ Tacitの作者は[Tacit, a CSS Framework Without Classes](https://www.yegor256.c
 
 また必要に応じて追加のCSSを書くことができるため、クラスレスCSSライブラリで適用される見た目をもとにして、より発展的な見た目・レイアウトを作っていくことも可能です。
 
-次の章からは星の数ほどあるクラスレスCSSのうち、選りすぐりのライブラリを4つ紹介します。
+次の章からは星の数ほどあるクラスレスCSSのうち、選りすぐりのライブラリである下記の4つを紹介します。
+
+- [oxalorg/sakura](https://github.com/oxalorg/sakura)
+- [alvaromontoro/almond.css](https://github.com/alvaromontoro/almond.css)
+- [kognise/water.css](https://github.com/kognise/water.css)
+- [xz/new.css](https://github.com/xz/new.css)
