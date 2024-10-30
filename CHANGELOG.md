@@ -1,3 +1,9 @@
+## [1.4.3](https://github.com/o2project/tbf17/compare/v1.4.2...v1.4.3) (2024-10-30)
+
+### 📚 Some changes
+
+* **deps:** update @o2project/vivliostyle-theme-o2project ([53a4a21](https://github.com/o2project/tbf17/commit/53a4a2104eced2b067b4043ab0537d5c83864c01))
+
 ## [1.4.2](https://github.com/o2project/tbf17/compare/v1.4.1...v1.4.2) (2024-10-30)
 
 ### 📚 Some changes
