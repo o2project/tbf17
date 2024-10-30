@@ -17,6 +17,15 @@ module.exports = {
   size: 'JIS-B5',
   theme: './node_modules/@o2project/vivliostyle-theme-o2project/lib/print_jis_b5.css',
   entry: [
+    {
+      path: './entries/book_title.md',
+      theme: './node_modules/@o2project/vivliostyle-theme-o2project/lib/book_title.css',
+    },
+    {
+      path: './entries/toc.md',
+      rel: 'contents',
+      theme: './node_modules/@o2project/vivliostyle-theme-o2project/lib/toc.css',
+    },
     './entries/prologue.md',
     './entries/south.md',
     './entries/west.md',
