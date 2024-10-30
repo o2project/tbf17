@@ -1,6 +1,7 @@
 # 南の星 ～sakura～
 
-リポジトリ：[github.com/oxalorg/sakura](https://github.com/oxalorg/sakura)
+- リポジトリ：[github.com/oxalorg/sakura](https://github.com/oxalorg/sakura)
+- サンプル：[https://o2project.github.io/tbf17/examples/sakura.html](https://o2project.github.io/tbf17/examples/sakura.html)
 
 sakuraは、90年代のような見栄えの悪いWebサイトを、sakuraが提供するCSSを読み込むだけででモダンなWebサイトにするライブラリと説明されています。
 

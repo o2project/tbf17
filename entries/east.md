@@ -1,6 +1,7 @@
 # 東の星 ～Water.css～
 
-リポジトリ：[github.com/kognise/water.css](https://github.com/kognise/water.css)
+- リポジトリ：[github.com/kognise/water.css](https://github.com/kognise/water.css)
+- サンプル：[https://o2project.github.io/tbf17/examples/watercss.html](https://o2project.github.io/tbf17/examples/watercss.html)
 
 東ゆうが「ワラーシーエスエス」と読みそうなWater.cssは、簡単なデモページやシンプルな内容のWebサイトを作るときに、良い見た目にするためのライブラリと説明されています。
 

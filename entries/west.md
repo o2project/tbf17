@@ -1,6 +1,7 @@
 # 西の星 ～Almond.css～
 
-リポジトリ：[github.com/alvaromontoro/almond.css](https://github.com/alvaromontoro/almond.css)
+- リポジトリ：[github.com/alvaromontoro/almond.css](https://github.com/alvaromontoro/almond.css)
+- サンプル：[https://o2project.github.io/tbf17/examples/almondcss.html](https://o2project.github.io/tbf17/examples/almondcss.html)
 
 Almond.cssはブラウザー間で見た目が異ならないよう正規化すると共に、独自のスタイルを適用するライブラリだと説明されています。
 

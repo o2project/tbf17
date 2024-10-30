@@ -1,6 +1,7 @@
 # 北の星 ～new.css～
 
-リポジトリ：[github.com/xz/new.css](https://github.com/xz/new.css)
+- リポジトリ：[github.com/xz/new.css](https://github.com/xz/new.css)
+- サンプル：[https://o2project.github.io/tbf17/examples/newcss.html](https://o2project.github.io/tbf17/examples/newcss.html)
 
 new.cssは、4.8KBというCSSのサイズの小ささを売りにしているライブラリです。
 
