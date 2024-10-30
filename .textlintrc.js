@@ -7,5 +7,8 @@ module.exports = {
     'no-dead-link': {
       ignoreRedirects: true,
     },
+    'preset-jtf-style': {
+      '4.2.9.ダッシュ(-)': false,
+    },
   },
 };
