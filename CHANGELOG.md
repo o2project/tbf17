@@ -1,3 +1,29 @@
+## [1.5.0](https://github.com/o2project/tbf17/compare/v1.4.3...v1.5.0) (2024-10-30)
+
+### ✨ Features
+
+* **vivliostyle:** JIS-B5からJIS-A5に変更 ([72ba5fd](https://github.com/o2project/tbf17/commit/72ba5fd51340268ef386eeff870bacddd5a121a4))
+* **entries/prologue:** リポジトリのリンクテキストから説明を削除した ([d2d64b3](https://github.com/o2project/tbf17/commit/d2d64b33eb01ca7b6dfb5c8dd48e65cba9b37098))
+
+### 🐛 Bug Fixes
+
+* **entries/prologue:** Netflixが405 Method Not Allowedを返すのでABEMAに変更 ([a534b81](https://github.com/o2project/tbf17/commit/a534b81390a45102a5556b2f5524565071c257cd))
+* **vivliostyle:** themeの指定を直接CSS指定の形式に変えた ([a02881e](https://github.com/o2project/tbf17/commit/a02881e6bbf21e8a9e438ca2019eabd953d85425))
+* **entries/prologue:** セレクタ→セレクター ([f0cb0a6](https://github.com/o2project/tbf17/commit/f0cb0a603d69eb069dd28456f1651b7d822fd93d))
+
+### 📚 Some changes
+
+* **entries/west:** Almond.cssを紹介する章を書いた ([65dd56d](https://github.com/o2project/tbf17/commit/65dd56d645ce0d2bab07442191530b6e70e51058))
+* **entries/prologue:** emダッシュを使うようにした ([9b911ea](https://github.com/o2project/tbf17/commit/9b911ea095684fc9887536f766eea620f7bb7e60))
+* **entries/north:** new.cssを紹介する章を書いた ([7670d06](https://github.com/o2project/tbf17/commit/7670d067453330d3eb0472eff710cf0afdb3cc01))
+* **entries/south:** sakuraを紹介する章を追記した ([7d4ebaf](https://github.com/o2project/tbf17/commit/7d4ebaf4904e73cfa95c3fa6526ac4d800a22956))
+* **entries/east:** Water.cssを紹介する章を書いた ([0a14f93](https://github.com/o2project/tbf17/commit/0a14f933bffbf51539f749ea6a274e9169bf501a))
+* **entries/prologue:** リセットCSSに関する文章を分割した ([4a74186](https://github.com/o2project/tbf17/commit/4a741866e9b9f80f7322b7cb60d0058cb479a775))
+* **entries/colophon:** 奥付に見出しを追加した ([5c61b18](https://github.com/o2project/tbf17/commit/5c61b18db8133ab8f90358c292c405f5b4076a0a))
+* **entries/colophon:** 奥付のマークアップを更新した ([284588e](https://github.com/o2project/tbf17/commit/284588e5f82e89ba6fa2cd8b36d8cc27a5e02d5e))
+* **entries/prologue:** 紹介する4つのライブラリのリンクを追加した ([3eb4eca](https://github.com/o2project/tbf17/commit/3eb4ecaa1dfd72d463e04fcdc9e3b379b454cfb8))
+* **entries/prologue:** 紹介する4つのライブラリのリンクを追加した ([8583252](https://github.com/o2project/tbf17/commit/8583252133d7848155698b0108b00ef1c1c57b1f))
+
 ## [1.4.3](https://github.com/o2project/tbf17/compare/v1.4.2...v1.4.3) (2024-10-30)
 
 ### 📚 Some changes
