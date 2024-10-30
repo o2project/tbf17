@@ -1,3 +1,16 @@
+## [1.6.0](https://github.com/o2project/tbf17/compare/v1.5.0...v1.6.0) (2024-10-30)
+
+### ✨ Features
+
+* **entries/west:** font-familyの比較を見やすくした ([674c79b](https://github.com/o2project/tbf17/commit/674c79b790c94b13480e8dc5bb47cf10aca50df1))
+* **vivliostyle:** 本のタイトルと目次を追加した ([a696fa1](https://github.com/o2project/tbf17/commit/a696fa1cf20a8e235197c6b762792c08305feac9))
+
+### 📚 Some changes
+
+* **deps:** update @o2project/vivliostyle-theme-o2project ([cb1f34f](https://github.com/o2project/tbf17/commit/cb1f34f04fdee3c8ec04f21e442f214044cfc35c))
+* **entries/book_title:** 最初のページに表示するためのファイルを作成 ([32a3c11](https://github.com/o2project/tbf17/commit/32a3c11fcb68633b763216dbe33d668be8d08cab))
+* **entries/toc:** 目次用のファイルを作成 ([d9ee34f](https://github.com/o2project/tbf17/commit/d9ee34fd8a82e4a9b1b2c354f62b0ecec21b5a27))
+
 ## [1.5.0](https://github.com/o2project/tbf17/compare/v1.4.3...v1.5.0) (2024-10-30)
 
 ### ✨ Features
