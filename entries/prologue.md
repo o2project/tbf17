@@ -81,7 +81,7 @@ Tacitの作者は[Tacit, a CSS Framework Without Classes](https://www.yegor256.c
 
 - [Pinterest](https://jp.pinterest.com/)や[pixiv](https://www.pixiv.net/)のような画像中心のページ
 - [Figma](https://www.figma.com/)のような自由にオブジェクトが配置できる前提のWebアプリケーション
-- [Netflix](https://www.netflix.com/jp)といった複数カラムが各ページにモジュール単位で存在しているページ
+- [ABEMA](https://abema.tv/)といった複数カラムが各ページにモジュール単位で存在しているページ
 
 ## クラスレスCSSの活用
 
