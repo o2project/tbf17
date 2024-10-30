@@ -1,5 +1,7 @@
 <section id="colophon" role="doc-colophon">
 
+# 奥付
+
 ## trapezium.css
 
 2024年11月2日：初版発行
