@@ -15,7 +15,7 @@
   </div>
   <div>
     <dt>フォント</dt>
-    <dd>Sauce Han Sans, Source Han Code JP</dd>
+    <dd>Sauce Han Sans, Bizin Gothic</dd>
   </div>
   <div>
     <dt>印刷</dt>
