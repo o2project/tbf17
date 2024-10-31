@@ -1,3 +1,21 @@
+## [1.7.0](https://github.com/o2project/tbf17/compare/v1.6.1...v1.7.0) (2024-10-31)
+
+### ✨ Features
+
+* **book_title:** カバーの見た目を変更した ([a51b125](https://github.com/o2project/tbf17/commit/a51b1259ef90a37fc64c17aeda9d9ffafcb5b231))
+
+### 🐛 Bug Fixes
+
+* **entries/colophon:** 使用したフォントを変更した ([be85483](https://github.com/o2project/tbf17/commit/be854837affab1c1a57b374bc8a11eee703be736))
+* **entries/colophon:** 奥付にスタイルが適用されるようにした ([5ece9a2](https://github.com/o2project/tbf17/commit/5ece9a2092bffef5de45db33bc8b2f7b0479f087))
+* **entries/north:** 文言調整 ([b08fde9](https://github.com/o2project/tbf17/commit/b08fde96e6e01f3c1744a21dbbb14ed4ec413438))
+* **entries/south:** 文言調整 ([95750b0](https://github.com/o2project/tbf17/commit/95750b05f7eaa23e85862c15cc5846c38899cd64))
+* **entries/west:** 文言調整 ([5877475](https://github.com/o2project/tbf17/commit/5877475d8d6e0ecbe4e88efabd25556af6a5007e))
+
+### 📚 Some changes
+
+* **deps:** update @o2project/vivliostyle-theme-o2project ([0bec233](https://github.com/o2project/tbf17/commit/0bec2334b1be3da826845e837130bea12b96fa40))
+
 ## [1.6.1](https://github.com/o2project/tbf17/compare/v1.6.0...v1.6.1) (2024-10-30)
 
 ### 📚 Some changes
