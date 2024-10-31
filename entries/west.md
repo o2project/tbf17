@@ -111,13 +111,13 @@ font-family: 'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,U
 
 こうして比較するとAlmond.cssの `font-family` に定義されているフォントの数が圧倒的に少ないと分かります。
 
-「ロボコンはデザインだけだと全国で勝てないので、もっと上を目指して努力したい」という大河くるみの精神が現れているかもしれません。
+「ロボコンはデザインだけだと全国で勝てないので、もっと上を目指して努力したい」という精神が現れているかもしれません。
 
 ### 見出し要素に `color` を適用している
 
 `font-family` では定義されているフォントの数で圧倒的な少なさを見せましたが、見出し要素に唯一 `color: hsl(210, 50%, 40%);` を適用しているのがAlmond.cssです。
 
-![Almond.cssの見出し要素](./images/west/almond_headings.png)
+![Almond.cssの見出し要素](./images/west/almond_headings.png){width=500}
 
 sakuraと比較してみると分かるかもしれません（白黒ページだと分かりづらいかもしれません……）。
 
@@ -150,13 +150,15 @@ HSLは色相（Hue）・彩度（Saturation）・輝度（Lightness）で色を�
 
 ### `dd` 要素に対して `font-style: italic;` が適用されている
 
+`dd` 要素に対して斜体になるスタイルが適用されていますが、日本語のフォントだと斜体にならないため、英語と日本語を混ぜたときに違和感のある見た目になります。
+
 ![dd要素内のテキストが英語の部分だけ斜体になっている](./images/west/dd_italic.png)
 
 ### `html` 要素の `lang` 属性の値によっては、`blockquote` 要素内が意図しない表示になる
 
-`blockquote` 要素の `::before` 疑似要素に指定している値が `open-quote` となっていますが、`html` 要素の `lang` 属性に定義されている値によって表示される記号が異なります。たとえば `html` 要素の `lang` 属性に `ja` の値を定義した場合は、かぎ括弧が引用符として使われます。
+`blockquote` 要素の `::before` 疑似要素に指定している値が `open-quote` となっていますが、`html` 要素の `lang` 属性に定義されている値によって表示される記号が異なります。
 
-この状態でAlmond.cssを読み込んで `blockquote` 要素を使うと、`blockquote` 要素内でかぎ括弧の始まりが変な位置に表示されます。
+たとえば `html` 要素の `lang` 属性に `ja` の値を定義した場合は、かぎ括弧が引用符として使われます。この状態でAlmond.cssを読み込んで `blockquote` 要素を使うと、`blockquote` 要素内でかぎ括弧の始まりが変な位置に表示されます。
 
 ![blockquote要素内でかぎ括弧の始まりが変な位置に表示された状態](./images/west/blockquote.png)
 
