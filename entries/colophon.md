@@ -1,3 +1,5 @@
+<section role="doc-colophon">
+
 # trapezium.css
 
 2024年11月2日　v1.0.0
@@ -22,3 +24,5 @@
 </dl>
 
 © 2024 O2 Project
+
+</section>
