@@ -1,3 +1,9 @@
+## [1.7.2](https://github.com/o2project/tbf17/compare/v1.7.1...v1.7.2) (2024-11-11)
+
+### 🐛 Bug Fixes
+
+* update @kubosho/configs to the new format ([3663302](https://github.com/o2project/tbf17/commit/3663302f49d984175024b731eb4c74887810d5ff))
+
 ## [1.7.1](https://github.com/o2project/tbf17/compare/v1.7.0...v1.7.1) (2024-11-01)
 
 ### 📚 Some changes
