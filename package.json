@@ -20,6 +20,6 @@
     "@vivliostyle/cli": "^8.16.2"
   },
   "dependencies": {
-    "@o2project/vivliostyle-theme-o2project": "^2.8.0"
+    "@o2project/vivliostyle-theme-o2project": "^2.8.1"
   }
 }
