@@ -1,3 +1,9 @@
+## [1.7.3](https://github.com/o2project/tbf17/compare/v1.7.2...v1.7.3) (2024-11-26)
+
+### 📚 Some changes
+
+* **deps:** bump @o2project/vivliostyle-theme-o2project ([492b1c5](https://github.com/o2project/tbf17/commit/492b1c5e1e2aaf83c8611a8d6ebe78430ad96cf3))
+
 ## [1.7.2](https://github.com/o2project/tbf17/compare/v1.7.1...v1.7.2) (2024-11-11)
 
 ### 🐛 Bug Fixes
