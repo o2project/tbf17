@@ -16,7 +16,7 @@
     "lint": "textlint ./entries/*.md"
   },
   "devDependencies": {
-    "@kubosho/configs": "^4.0.8",
+    "@kubosho/configs": "^4.0.9",
     "@vivliostyle/cli": "^8.17.1"
   },
   "dependencies": {
